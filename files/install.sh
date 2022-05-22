@@ -4,6 +4,8 @@ set -x
 
 apk add bash
 apk add vim
+apk add tree
+
 rm /usr/bin/vi
 ln -s /usr/bin/vim /usr/bin/vi
 
