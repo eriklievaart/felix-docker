@@ -3,7 +3,7 @@ set -e
 set -x
 
 apk add bash
-apk add vim vim-help
+#apk add vim vim-help
 apk add tree
 
 rm /usr/bin/vi

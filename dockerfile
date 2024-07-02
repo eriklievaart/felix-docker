@@ -1,5 +1,5 @@
 
-from openjdk:16-jdk-alpine
+from openjdk:13-alpine
 
 copy files /root
 run /root/install.sh
